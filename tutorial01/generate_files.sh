@@ -18,3 +18,10 @@ do
 
     echo "That's it" >> $prefix$x
 done
+
+
+for y in fruits veggies drinks
+do
+    touch $y"_list.txt"     # create empty files
+done
+

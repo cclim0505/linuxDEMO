@@ -33,8 +33,35 @@ Use other options for the `ls` command to see different results, such as
 
 ## 3
 
-Go to `Desktop` and type the following command
-`wget`
+### Preparation
+Go to `Desktop` and type the following commands
+```
+wget https://github.com/cclim0505/linuxDEMO/archive/main.zip
+unzip main.zip
+cd linux DEMO-main/tutorial01
+bash generate_files.sh
+```
+
+if `unzip` is not installed, install with `sudo apt install unzip` for
+Ubuntu/Debian based systems. System will prompt for a password, which is the one
+you used when creating your user or installing linux.
+
+After the last command, use `ls` and you should see some new sample text files.
+
+### Navigating and manipulating files & directories
+
+Use `cat filename` to see what's inside the file.
+
+Try `tac filename` and see what happens.
+
+Type `rm sample_text?` to remove some of the sample files. Check with `ls`.
+
+Type `bash generate_files.sh` again.
+
+Type `mkdir folder_test`, then `ls`.
+
+Type `mv sample_text? folder_test`, then `ls folder_test`.
+
 
 # Vim
 
@@ -44,3 +71,14 @@ tutorial.
 Finish up until Lesson 2 of *vimtutor*
 
 Type `:q` when you need to quit *vim*.
+
+
+# Python
+
+Install python for your machine.
+
+The terminal way is with `sudo apt install python3`.
+
+After installation, type `python3` to interact with the python3 shell.
+
+Press `Ctrl + d` to quit, or type `quit()`.
