@@ -1,0 +1,17 @@
+steve_sampleDir/
+├── documents
+│   ├── letters
+│   │   ├── AMG.reply
+│   │   └── no.JSK
+│   ├── memos
+│   │   ├── dact
+│   │   └── plan
+│   └── proposals
+│       ├── new.hire
+│       └── sys.A
+└── programs
+    ├── collect
+    ├── mon
+    └── wb
+
+5 directories, 9 files
